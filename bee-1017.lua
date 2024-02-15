@@ -1,4 +1,4 @@
 local horas, velocidade = io.read("n", "n")
-local km = 12
-local resultado = horas * velocidade / km
+local consumo = 12
+local resultado = horas * velocidade / consumo
 print(string.format("%.3f", resultado))
