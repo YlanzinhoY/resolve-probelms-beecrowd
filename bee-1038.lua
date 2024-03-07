@@ -1,11 +1,9 @@
 local cod, qtd = io.read("n", "n")
- 
 
 local function formatterPrice(value1, value2)
 
     local sum = value1 * value2
-    print(string.format("Total: R$ %.2f", sum))
-    
+    print(string.format("Total: R$ %.2f", sum)) 
 end
 
 local cod1_price = 4.00
