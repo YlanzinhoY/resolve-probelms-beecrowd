@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class bee1011 {
+public class bee_1011 {
     public static void main(String[] args) {
         var scan = new Scanner(System.in);
         double raio = scan.nextDouble();
